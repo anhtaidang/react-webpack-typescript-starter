@@ -1,7 +1,17 @@
-import * as React from "react";
+import React from "react";
 import { render } from "react-dom";
-import App from "./components/App";
+import { Router } from "react-router-dom";
+import { createBrowserHistory } from "history";
+import App from "./layout/App";
+import { StateProvider } from "./store/StateProvider";
 
-const rootEl = document.getElementById("root");
+export const history = createBrowserHistory();
 
-render(<App />, rootEl);
+render(
+  <Router history={history}>
+    <StateProvider>
+      <App />
+    </StateProvider>
+  </Router>,
+  document.getElementById("root")
+);

@@ -1,0 +1,4 @@
+@include rounded-bind(rounded);
+@include color-bind(color, red yellow green silver black blue white purple);
+@include background-bind(bg, red yellow green silver black blue white purple);
+@include padding-margin-bind();

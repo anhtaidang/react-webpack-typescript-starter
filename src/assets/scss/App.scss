@@ -1,12 +1,18 @@
-$bg-color: yellow;
-$border-color: red;
+@import '~antd/dist/antd.min.css';
 
-.app {
-  font-family: helvetica, arial, sans-serif;
-  padding: 2em;
-  border: 5px solid $border-color;
+@import './common/mixins';
+@import './common/core';
+@import './common/common';
 
-  p {
-    background-color: $bg-color;
-  }
-}
+//$bg-color: yellow;
+//$border-color: red;
+//
+//.app {
+//  font-family: helvetica, arial, sans-serif;
+//  padding: 2em;
+//  border: 5px solid $border-color;
+//
+//  p {
+//    background-color: $bg-color;
+//  }
+//}

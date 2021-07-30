@@ -1,4 +1,7 @@
 module.exports = {
-    semi: true,
+  prettier: {
+    singleQuote: true,
     trailingComma: "all",
+    printWidth: 120,
+  },
 };

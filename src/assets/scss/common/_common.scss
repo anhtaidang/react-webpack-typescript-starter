@@ -1,0 +1,97 @@
+body {
+  background-color: #f4f4f4;
+}
+.w-100 {
+  width: 100% !important;
+}
+.flex-container {
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-row {
+  flex-direction: column;
+}
+
+.flex-content-center {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.flex-content-left {
+  justify-content: left;
+}
+
+.flex-content-right {
+  justify-content: right;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.link-absolute {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: 0 0;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+}
+
+.rounded {
+  border-radius: 0.25rem !important;
+}
+.flex {
+  display: flex;
+}
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+.font-weight-normal {
+  font-weight: 400 !important;
+}
+.font-weight-light {
+  font-weight: 300 !important;
+}
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-wrapper {
+  background-color: #ffff;
+  margin-top: 15px;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}

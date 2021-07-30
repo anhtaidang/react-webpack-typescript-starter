@@ -5,13 +5,23 @@
     "@babel/preset-typescript"
   ],
   "plugins": [
-    "react-hot-loader/babel"
-  ],
-  "env": {
-    "production": {
-      "presets": [
-        "minify"
-      ]
-    }
-  }
+    "@babel/plugin-proposal-class-properties",
+    "jsx-control-statements",
+    [
+      "module-resolver",
+      {
+        "root": ["/"],
+        "alias": {
+          "~": "./src"
+        }
+      }
+    ],
+    "@babel/plugin-proposal-optional-chaining",
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "regenerator": true
+      }
+    ]
+  ]
 }
